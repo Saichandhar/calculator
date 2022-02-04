@@ -3,6 +3,7 @@
 //  calculator
 //
 //  Created by Thodati,Sai Chandhar Reddy on 2/3/22.
+
 //
 
 import UIKit
@@ -80,6 +81,7 @@ class ViewController: UIViewController {
             button4.setTitle(operations[x], for: .normal)
             holder.addSubview(button4)
         }
+        
         resultLabel.frame = CGRect(x: 20, y: clearButton.frame.origin.y - 110, width: view.frame.size.width - 40,height: 100)
         holder.addSubview(resultLabel)
     }
